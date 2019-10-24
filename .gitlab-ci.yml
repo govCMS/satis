@@ -108,9 +108,8 @@ deploy:
   stage: deploy
   script:
     - |
-      echo "HI"
-      exit 1
-
+      docker build -t satis .
+      sudo docker push quay.io/govcms/satis:quaytest
 before_script:
   - php -S localhost:4680 -t ./app > phpd.log 2>&1 &
   - mkdir -p workspace

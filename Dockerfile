@@ -1,7 +1,6 @@
-FROM amazeeio/nginx:latest
+# The image pushed to Quay.io after tests are run.
+# This image is referenced by Lagoon.
 
-# nginx config.
-#COPY nginx-satis.conf /etc/nginx/satis.conf
-#RUN fix-permissions /etc/nginx
+FROM amazeeio/nginx:latest
 
 COPY app/ /app/
