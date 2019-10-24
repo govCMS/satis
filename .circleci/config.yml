@@ -1,0 +1,33 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: quay.io/govcms/govcms-ci
+#        environment:
+#          COMPOSER_ALLOW_SUPERUSER: 1
+#          COMPOSE_PROJECT_NAME: govcms8
+#          DEPLOY_BRANCH: 1.x
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: Require one package per project
+          command: |
+            # If a package appears many times, then something is wrong with the configuration.
+            for f in app/include/*.json
+            do
+              # Flatten the packagist json to just name, and count the number of each ".name".
+              TOOMANY=$(cat "$f" | jq '.packages | [.[] ] | .[] | [.[]] | .[] | .name' | sort | uniq -c | awk '{if($1>1)print$2}')
+              if [[ ! -z $OUTPUT ]]; then echo "Two many packages for $TOOMANY" && exit 1; fi
+            done
+            echo "No package has too many versions."
+workflows:
+  version: 2
+  main:
+    jobs:
+      - build:
+          filters:
+            tags:
+              only: /.*/
+            branches:
+              only: /.*/
