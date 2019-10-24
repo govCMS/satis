@@ -104,7 +104,7 @@ whitelist:
       set -x # Test that we can now add a whitelist module.
       composer require drupal/migrate_plus ~4
 
-deploy
+deploy:
   stage: deploy
   script:
     - |
