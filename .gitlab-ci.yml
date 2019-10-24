@@ -9,6 +9,7 @@ services:
 
 stages:
   - test
+  - deploy
 
 default:
 
@@ -102,6 +103,13 @@ whitelist:
     - |
       set -x # Test that we can now add a whitelist module.
       composer require drupal/migrate_plus ~4
+
+deploy
+  stage: deploy
+  script:
+    - |
+      echo "HI"
+      exit 1
 
 before_script:
   - php -S localhost:4680 -t ./app > phpd.log 2>&1 &
