@@ -7,6 +7,17 @@ jobs:
       - checkout
       - setup_remote_docker
       - run:
+          name: All the tests.
+          command: |
+            echo "Do those gitlab tests."
+
+  upstream_trigger:
+    docker:
+      - image: quay.io/govcms/govcms-ci
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
           name: Require one package per project
           command: |
             echo "Be on upstream_changes branch"
