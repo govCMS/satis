@@ -1,10 +1,10 @@
 # GovCMS Packagist
 
- 
-A packagist resource for Composer projects which contains only the packages
-required to build the GovCMS distribution. All the modules available
-in this packagist have been reviewed and curated.
+A packagist resource managed by GovCMS for use by Composer projects. This packagist
+essentially only the packages required to build the GovCMS distribution.
+All the modules available in this packagist have been reviewed and curated.
 
+[![CircleCI](https://circleci.com/gh/govCMS/govcms8lagoon.svg?style=svg)](https://circleci.com/gh/govCMS/govcms8lagoon)
 
 ## Maintenance
 
