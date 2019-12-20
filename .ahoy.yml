@@ -45,6 +45,10 @@ commands:
     cmd: |
       ahoy satis-build satis-config/govcms-whitelist.json app/whitelist
 
+  build-security-updates:
+    cmd: |
+      ahoy satis-build satis-config/govcms-security_updates.json app/security_update
+
   server:
     cmd: |
       PHP -S localhost:4686 -t app
