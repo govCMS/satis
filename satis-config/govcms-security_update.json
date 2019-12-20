@@ -1,6 +1,6 @@
 {
-    "name": "govcms/satis-stable",
-    "homepage": "https://satis.govcms.gov.au",
+    "name": "govcms/satis-security_update",
+    "homepage": "https://satis.govcms.gov.au/security_update",
     "repositories": [
         { "type": "composer", "url": "https://packagist.org" },
         { "type": "composer", "url": "https://packages.drupal.org/8" },

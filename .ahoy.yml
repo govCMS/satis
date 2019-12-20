@@ -45,9 +45,9 @@ commands:
     cmd: |
       ahoy satis-build satis-config/govcms-whitelist.json app/whitelist
 
-  build-security-updates:
+  build-security-update:
     cmd: |
-      ahoy satis-build satis-config/govcms-security_updates.json app/security_update
+      ahoy satis-build satis-config/govcms-security_update.json app/security_update
 
   server:
     cmd: |
