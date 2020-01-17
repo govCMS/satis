@@ -12,16 +12,9 @@
         "govcms/govcms": "1.x-dev",
         "govcms/scaffold-tooling": "dev-master",
         "govcms/require-dev": "dev-master",
-        "fabpot/goutte": "3.2.3",
-        "symfony/psr-http-message-bridge": "1.2.0"
+        "fabpot/goutte": "3.2.3"
     },
     "require-dependencies": true,
     "require-dev-dependencies": true,
-    "only-best-candidates": true,
-    "blacklist": {
-        "drupal/dynamic_entity_reference": "1.8.0",
-        "drupal/entity_reference_revisions": "1.7.0",
-        "drupal/metatag": "1.10.0",
-        "drupal/search_api": "1.15.0"
-    }
+    "only-best-candidates": true
 }
