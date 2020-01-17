@@ -3,7 +3,7 @@ usage: CLI utilities
 commands:
 
   satis:
-    usage: ahoy satis ARGS
+    usage: Execute composer/satis via docker.
     cmd: |
       docker run --rm --init -it \
         --volume $(pwd):/build \
@@ -11,7 +11,7 @@ commands:
         composer/satis "$@"
 
   satis-build:
-    usage: ahoy satis packages.json build-dir
+    usage: Execute composer/satis passing in a json and a build dir.
     cmd: |
       docker run --rm --init -it \
         --user $(id -u):$(id -g) \
@@ -22,7 +22,8 @@ commands:
         --volume $(pwd):/build \
         composer/satis /build/branding/branding.sh "/build/$2"
 
-  build-all-production:
+  build:
+    usage: Build everything in /app
     cmd: |
       ahoy build-stable
       ahoy build-master
@@ -30,21 +31,31 @@ commands:
       ahoy build-whitelist
 
   build-stable:
+    usage: Build satis.govcms.gov.au
     cmd: |
       ahoy satis-build satis-config/govcms-stable.json app
 
   build-master:
+    usage: Build satis.govcms.gov.au/master
     cmd: |
       ahoy satis-build satis-config/govcms-master.json app/master
 
   build-develop:
+    usage: Build satis.govcms.gov.au/develop
     cmd: |
       ahoy satis-build satis-config/govcms-develop.json app/develop
 
   build-whitelist:
+    usage: Build satis.govcms.gov.au/whitelist
     cmd: |
       ahoy satis-build satis-config/govcms-whitelist.json app/whitelist
 
-  server:
+  verify:
+    usage: Locally run the same tests that would run in circle.
     cmd: |
-      PHP -S localhost:4141 -t app
+      SATIS_BUILD=app ./.circleci/build-scaffolds-against-all.sh
+
+  server:
+    usage: Make satis available on localhost:4142
+    cmd: |
+      PHP -S localhost:4142 -t app
