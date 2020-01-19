@@ -1,8 +1,9 @@
 # GovCMS Packagist
 
-A packagist resource managed by GovCMS for use by Composer projects. This packagist
-essentially only the packages required to build the GovCMS distribution.
-All the modules available in this packagist have been reviewed and curated.
+A packagist resource managed by GovCMS for use by Composer projects. This
+packagist service only offers an essential set of packages required to build
+the GovCMS distribution. All the modules available in this packagist have
+been reviewed.
 
 [![CircleCI](https://circleci.com/gh/govCMS/satis.svg?style=svg)](https://circleci.com/gh/govCMS/satis)
 
@@ -10,21 +11,35 @@ All the modules available in this packagist have been reviewed and curated.
 
 Currently, updating is manual but could be automated with new GovCMS releases.
 
-1. When there is a new version of govcms/govcms8 or govcms/require-dev, the
-Satis needs rebuilding.
+1. Satis should be rebuilt when there is a new version of govcms8
+distribution, however there could other packages also triggering this need.
 
-2. If it's a new version of the distribution, copy `satis-govcms-betaX.json`
-to a new file. Review the file.
+2. Check the version constrains in all the satis-config/govms-*.json files.
+You may need to update the version of GovCMS.
 
-3. Review the `ahoy build-production` command in `.ahoy.yml` and update file
-references if needed.
+3. Run `ahoy build`.
 
-4. Run `ahoy build-production`. This will update the static satis files in /app
+4. Run `ahoy verify` to duplicate tests that run in circle.
 
-5. Commit changes, including /app
+5. Commit changes, including /app which is the statis files that are hosted.
 
-6. Git push. This will build GovCMS in Gitlab (see `.gitlab-ci.yml`).
+6. Push or these changes to github.com/govcms/satis. This will trigger
+quay.io to rebuild the image from the docker-compose.yml.
 
+## Troubleshooting maintenance
+
+Building the Satis can result in a building a Satis server that you can't use
+to build GovCMS. In a recent example the govcms-stable.json (and others) 
+required `"fabpot/goutte": "3.2.3"` in order to ensure this slightly older
+version was available for a fully resolved govcms build.
+
+It will happen when trying to build GovCMS from the Satis which can be 
+tested with `ahoy verify`.
+
+1. Take a note of the composer error, the packages referred to.
+2. Build a normal GovCMS and compared the same packages.
+3. You should identify a package version that Satis didn't get.
+4. And this package explicitly to `config/govcms-*.json`.
 
 ## Benefits
 
@@ -163,7 +178,6 @@ composer to pick up sub-packages which are newer than what GovCMS distribution s
 (which is why it's not allowed on SaaS). If you are at this point you might as well
 rearchitect with [drupal-composer/drupal-project](https://github.com/drupal-composer/drupal-project)
 as your scaffold to get a more "custom vanilla" experience.
-
 
 ## Technical
 

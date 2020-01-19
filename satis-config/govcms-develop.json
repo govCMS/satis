@@ -12,11 +12,9 @@
         "govcms/govcms": "1.x-dev",
         "govcms/scaffold-tooling": "dev-develop",
         "govcms/require-dev": "dev-develop"
+        "fabpot/goutte": "3.2.3"
     },
     "require-dependencies": true,
     "require-dev-dependencies": true,
     "only-best-candidates": true,
-    "blacklist": {
-        "drupal/entity_reference_revisions": ">1.6"
-    }
 }
