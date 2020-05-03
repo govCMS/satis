@@ -358,9 +358,6 @@
                 },
                 "type": "drupal-module",
                 "extra": {
-                    "branch-alias": {
-                        "dev-4.x": "4.x-dev"
-                    },
                     "drupal": {
                         "version": "8.x-4.1",
                         "datestamp": "1565213885",
