@@ -17,7 +17,7 @@ GOVCMS_VERSION=$(cat ./satis-config/${config} | jq -r '.require."govcms/govcms"'
 echo -e "\033[1;35m--> Verifying packages for ${config} - govcms/govcms: ${GOVCMS_VERSION}  \033[0m"
 
 php -S localhost:4141 -t "${SATIS_BUILD}" > /tmp/phpd.log 2>&1 &
-composer create-project --no-install govcms/govcms8-scaffold-paas "${GOVCMS_SCAFFOLD}"
+composer create-project --no-install --keep-vcs govcms/govcms8-scaffold-paas:dev-develop "${GOVCMS_SCAFFOLD}"
 cd "${GOVCMS_SCAFFOLD}"
 composer config secure-http false
 
@@ -30,7 +30,9 @@ rm -Rf vendor && rm -Rf web/core && rm -Rf web/modules/contrib/* && rm -Rf web/p
 composer config repositories.govcms composer http://localhost:4141/"${BRANCH}"
 echo -e "\033[1;35m--> Repositories updated...\033[0m"
 composer config repositories | jq .
-composer require --no-update symfony/event-dispatcher:"v4.3.11 as v3.4.35" govcms/scaffold-tooling:"~2"
+
+# Add in dependency alias at composer root for solarium 5.x
+composer require --no-update symfony/event-dispatcher:"v4.3.11 as v3.4.35"
 
 # Point to the appropriate versions.
 if [ "${BRANCH}" = "master" ] || [ "${BRANCH}" = "develop" ] ; then   

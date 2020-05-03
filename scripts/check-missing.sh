@@ -18,7 +18,7 @@ echo -e "\033[1;35m--> Check missing packages for ${config} - govcms/govcms: ${G
 
 # Set up a working project and satis server.
 php -S localhost:4142 -t "${SATIS_BUILD}" > /tmp/phpd.log 2>&1 &
-composer create-project --no-install govcms/govcms8-scaffold-paas "${GOVCMS_BUILD}"
+composer create-project --no-install --keep-vcs govcms/govcms8-scaffold-paas:dev-develop "${GOVCMS_BUILD}"
 cd "${GOVCMS_BUILD}"
 composer config secure-http false
 
@@ -31,7 +31,9 @@ cp composer.json composer-copy.json && cat composer-copy.json \
   | jq .repositories='{"drupal":{"type":"composer","url": "https://packages.drupal.org/8"},"custom":{"type":"path","url":"custom/composer"},"govcms":{"type":"composer","url":"http://localhost:4142/'"${BRANCH}"'"}}' \
   | tee composer.json > /dev/null
 
-composer require --no-update symfony/event-dispatcher:"v4.3.11 as v3.4.35" govcms/scaffold-tooling:"~2"
+# Add in dependency alias at composer root for solarium 5.x
+composer require --no-update symfony/event-dispatcher:"v4.3.11 as v3.4.35"
+
 # Point composer.json the appropriate branch versions if testing develop or master.
 if [ "${BRANCH}" = "master" ] || [ "${BRANCH}" = "develop" ] ; then
     echo -e "\033[1;35m--> Updating govcms packages to their '${BRANCH}' versions \033[0m"
