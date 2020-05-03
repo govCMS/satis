@@ -30,6 +30,8 @@ rm -Rf vendor && rm -Rf web/core && rm -Rf web/modules/contrib/* && rm -Rf web/p
 cp composer.json composer-copy.json && cat composer-copy.json \
   | jq .repositories='{"drupal":{"type":"composer","url": "https://packages.drupal.org/8"},"custom":{"type":"path","url":"custom/composer"},"govcms":{"type":"composer","url":"http://localhost:4142/'"${BRANCH}"'"}}' \
   | tee composer.json > /dev/null
+
+composer require --no-update symfony/event-dispatcher:"v4.3.11 as v3.4.35" govcms/scaffold-tooling:"~2"
 # Point composer.json the appropriate branch versions if testing develop or master.
 if [ "${BRANCH}" = "master" ] || [ "${BRANCH}" = "develop" ] ; then
     echo -e "\033[1;35m--> Updating govcms packages to their '${BRANCH}' versions \033[0m"

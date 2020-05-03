@@ -30,6 +30,7 @@ rm -Rf vendor && rm -Rf web/core && rm -Rf web/modules/contrib/* && rm -Rf web/p
 composer config repositories.govcms composer http://localhost:4141/"${BRANCH}"
 echo -e "\033[1;35m--> Repositories updated...\033[0m"
 composer config repositories | jq .
+composer require --no-update symfony/event-dispatcher:"v4.3.11 as v3.4.35" govcms/scaffold-tooling:"~2"
 
 # Point to the appropriate versions.
 if [ "${BRANCH}" = "master" ] || [ "${BRANCH}" = "develop" ] ; then   
