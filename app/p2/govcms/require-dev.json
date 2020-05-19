@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "govcms/require-dev": [
+            {
+                "name": "govcms/require-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/govCMS/require-dev.git",
+                    "reference": "a34f7c613a206a8c96bc91b3beb688143d00bfef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/govCMS/require-dev/zipball/a34f7c613a206a8c96bc91b3beb688143d00bfef",
+                    "reference": "a34f7c613a206a8c96bc91b3beb688143d00bfef",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/behat": "^3.5",
+                    "behat/gherkin": "^4.5",
+                    "drupal/coder": "^8.3",
+                    "drupal/drupal-extension": "3.4.1",
+                    "integratedexperts/behat-screenshot": "^0.7.2",
+                    "jakub-onderka/php-parallel-lint": "^1.0",
+                    "phpmd/phpmd": "2.7.0",
+                    "phpunit/phpunit": "6.5"
+                },
+                "time": "2020-04-15T01:28:41+00:00",
+                "type": "library",
+                "description": "Require-dev package definition for GovCMS 8",
+                "support": {
+                    "source": "https://github.com/govCMS/require-dev/tree/1.0.2",
+                    "issues": "https://github.com/govCMS/require-dev/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "packages": {
+        "symfony/polyfill-util": [
+            {
+                "name": "symfony/polyfill-util",
+                "version": "v1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-util.git",
+                    "reference": "4317de1386717b4c22caed7725350a8887ab205c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/4317de1386717b4c22caed7725350a8887ab205c",
+                    "reference": "4317de1386717b4c22caed7725350a8887ab205c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2019-08-06T08:03:45+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.12-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Util\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony utilities for portability of PHP codes",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compat",
+                    "compatibility",
+                    "polyfill",
+                    "shim"
+                ]
+            },
+            {
+                "name": "symfony/polyfill-util",
+                "version": "v1.17.0",
+                "version_normalized": "1.17.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-util.git",
+                    "reference": "4afb4110fc037752cf0ce9869f9ab8162c4e20d7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/4afb4110fc037752cf0ce9869f9ab8162c4e20d7",
+                    "reference": "4afb4110fc037752cf0ce9869f9ab8162c4e20d7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2020-05-12T16:14:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.17-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Util\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony utilities for portability of PHP codes",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compat",
+                    "compatibility",
+                    "polyfill",
+                    "shim"
+                ]
+            }
+        ]
+    }
+}

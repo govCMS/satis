@@ -1,0 +1,76 @@
+{
+    "packages": {
+        "drupal/ga_login": [
+            {
+                "name": "drupal/ga_login",
+                "version": "1.0.0-alpha4",
+                "version_normalized": "1.0.0.0-alpha4",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/ga_login.git",
+                    "reference": "8.x-1.0-alpha4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://ftp.drupal.org/files/projects/ga_login-8.x-1.0-alpha4.zip",
+                    "reference": "8.x-1.0-alpha4",
+                    "shasum": "ab47d722638b8d0ea2386567c34a8953dc6eee69"
+                },
+                "require": {
+                    "chillerlan/php-qrcode": "1.0.8",
+                    "christian-riesen/otp": "2.*",
+                    "drupal/core": "~8.0",
+                    "drupal/tfa": "~1.0"
+                },
+                "require-dev": {
+                    "drupal/tfa": "1.x-dev"
+                },
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-1.x": "1.x-dev"
+                    },
+                    "drupal": {
+                        "version": "8.x-1.0-alpha4",
+                        "datestamp": "1521587880",
+                        "security-coverage": {
+                            "status": "not-covered",
+                            "message": "Alpha releases are not covered by Drupal security advisories."
+                        }
+                    }
+                },
+                "notification-url": "https://packages.drupal.org/8/downloads",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Jelle_S",
+                        "homepage": "https://www.drupal.org/user/829198"
+                    },
+                    {
+                        "name": "attiks",
+                        "homepage": "https://www.drupal.org/user/105002"
+                    },
+                    {
+                        "name": "daggerhart",
+                        "homepage": "https://www.drupal.org/user/167806"
+                    },
+                    {
+                        "name": "nerdstein",
+                        "homepage": "https://www.drupal.org/user/1557710"
+                    },
+                    {
+                        "name": "therealssj",
+                        "homepage": "https://www.drupal.org/user/3408074"
+                    }
+                ],
+                "description": "TFA plugins for Hmac-Based One Time Passwords & Time Based One Time Password with recovery codes as fallback.",
+                "homepage": "https://www.drupal.org/project/ga_login",
+                "support": {
+                    "source": "https://git.drupalcode.org/project/ga_login"
+                }
+            }
+        ]
+    }
+}

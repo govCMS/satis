@@ -1,0 +1,5 @@
+{
+    "packages": {
+        "paragonie/constant_time_encoding": []
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "consolidation/filter-via-dot-access-data": [
+            {
+                "name": "consolidation/filter-via-dot-access-data",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/consolidation/filter-via-dot-access-data.git",
+                    "reference": "a53e96c6b9f7f042f5e085bf911f3493cea823c6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/consolidation/filter-via-dot-access-data/zipball/a53e96c6b9f7f042f5e085bf911f3493cea823c6",
+                    "reference": "a53e96c6b9f7f042f5e085bf911f3493cea823c6",
+                    "shasum": ""
+                },
+                "require": {
+                    "dflydev/dot-access-data": "^1.1.0",
+                    "php": ">=5.5.0"
+                },
+                "require-dev": {
+                    "consolidation/robo": "^1.2.3",
+                    "g1a/composer-test-scenarios": "^3",
+                    "knplabs/github-api": "^2.7",
+                    "php-coveralls/php-coveralls": "^1",
+                    "php-http/guzzle6-adapter": "^1.1",
+                    "phpunit/phpunit": "^5",
+                    "squizlabs/php_codesniffer": "^2.8",
+                    "symfony/console": "^2.8|^3|^4"
+                },
+                "time": "2019-01-18T06:05:07+00:00",
+                "type": "library",
+                "extra": {
+                    "scenarios": {
+                        "phpunit5": {
+                            "require-dev": {
+                                "phpunit/phpunit": "^5.7.27"
+                            },
+                            "remove": [
+                                "php-coveralls/php-coveralls"
+                            ],
+                            "config": {
+                                "platform": {
+                                    "php": "5.6.33"
+                                }
+                            }
+                        }
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Consolidation\\Filter\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Greg Anderson",
+                        "email": "greg.1.anderson@greenknowe.org"
+                    }
+                ],
+                "description": "This project uses dflydev/dot-access-data to provide simple output filtering for applications built with annotated-command / Robo."
+            }
+        ]
+    }
+}

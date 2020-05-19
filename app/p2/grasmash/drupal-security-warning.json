@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "grasmash/drupal-security-warning": [
+            {
+                "name": "grasmash/drupal-security-warning",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/grasmash/drupal-security-warning.git",
+                    "reference": "cfc5424c84df02be9d094f491e5b57063c15cd72"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/grasmash/drupal-security-warning/zipball/cfc5424c84df02be9d094f491e5b57063c15cd72",
+                    "reference": "cfc5424c84df02be9d094f491e5b57063c15cd72",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.0",
+                    "phpunit/phpunit": "^5.7.0",
+                    "squizlabs/php_codesniffer": "^2.7",
+                    "symfony/filesystem": "^3.2.0",
+                    "symfony/process": "^3.2.0"
+                },
+                "time": "2017-10-10T14:47:08+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "grasmash\\DrupalSecurityWarning\\Composer\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "grasmash\\DrupalSecurityWarning\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Matthew Grasmick"
+                    }
+                ],
+                "description": "Warns users installing Drupal project versions not supported by Security Team.",
+                "keywords": [
+                    "drupal",
+                    "security"
+                ]
+            }
+        ]
+    }
+}

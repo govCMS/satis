@@ -1,0 +1,142 @@
+{
+    "packages": {
+        "sebastian/exporter": [
+            {
+                "name": "sebastian/exporter",
+                "version": "3.1.2",
+                "version_normalized": "3.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/exporter.git",
+                    "reference": "68609e1261d215ea5b21b7987539cbfbe156ec3e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/68609e1261d215ea5b21b7987539cbfbe156ec3e",
+                    "reference": "68609e1261d215ea5b21b7987539cbfbe156ec3e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.0",
+                    "sebastian/recursion-context": "^3.0"
+                },
+                "require-dev": {
+                    "ext-mbstring": "*",
+                    "phpunit/phpunit": "^6.0"
+                },
+                "time": "2019-09-14T09:02:43+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    },
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Volker Dusch",
+                        "email": "github@wallbash.com"
+                    },
+                    {
+                        "name": "Adam Harvey",
+                        "email": "aharvey@php.net"
+                    },
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@gmail.com"
+                    }
+                ],
+                "description": "Provides the functionality to export PHP variables for visualization",
+                "homepage": "http://www.github.com/sebastianbergmann/exporter",
+                "keywords": [
+                    "export",
+                    "exporter"
+                ]
+            },
+            {
+                "name": "sebastian/exporter",
+                "version": "4.0.0",
+                "version_normalized": "4.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/exporter.git",
+                    "reference": "80c26562e964016538f832f305b2286e1ec29566"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/80c26562e964016538f832f305b2286e1ec29566",
+                    "reference": "80c26562e964016538f832f305b2286e1ec29566",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.3",
+                    "sebastian/recursion-context": "^4.0"
+                },
+                "require-dev": {
+                    "ext-mbstring": "*",
+                    "phpunit/phpunit": "^9.0"
+                },
+                "time": "2020-02-07T06:10:52+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    },
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Volker Dusch",
+                        "email": "github@wallbash.com"
+                    },
+                    {
+                        "name": "Adam Harvey",
+                        "email": "aharvey@php.net"
+                    },
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@gmail.com"
+                    }
+                ],
+                "description": "Provides the functionality to export PHP variables for visualization",
+                "homepage": "http://www.github.com/sebastianbergmann/exporter",
+                "keywords": [
+                    "export",
+                    "exporter"
+                ]
+            }
+        ]
+    }
+}

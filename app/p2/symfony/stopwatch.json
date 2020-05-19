@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "symfony/stopwatch": [
+            {
+                "name": "symfony/stopwatch",
+                "version": "v4.4.8",
+                "version_normalized": "4.4.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/stopwatch.git",
+                    "reference": "e0324d3560e4128270e3f08617480d9233d81cfc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/stopwatch/zipball/e0324d3560e4128270e3f08617480d9233d81cfc",
+                    "reference": "e0324d3560e4128270e3f08617480d9233d81cfc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.1.3",
+                    "symfony/service-contracts": "^1.0|^2"
+                },
+                "time": "2020-03-27T16:54:36+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Stopwatch\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Stopwatch Component",
+                "homepage": "https://symfony.com"
+            }
+        ]
+    }
+}

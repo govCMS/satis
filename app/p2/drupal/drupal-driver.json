@@ -1,0 +1,66 @@
+{
+    "packages": {
+        "drupal/drupal-driver": [
+            {
+                "name": "drupal/drupal-driver",
+                "version": "v1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/jhedstrom/DrupalDriver.git",
+                    "reference": "919c6a39ef6a17bdcaf81dcff97b117ecfb6061c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/jhedstrom/DrupalDriver/zipball/919c6a39ef6a17bdcaf81dcff97b117ecfb6061c",
+                    "reference": "919c6a39ef6a17bdcaf81dcff97b117ecfb6061c",
+                    "shasum": ""
+                },
+                "require": {
+                    "drupal/core-utility": "^8.4",
+                    "php": ">=5.5.9",
+                    "symfony/dependency-injection": "~2.6|~3.0",
+                    "symfony/process": "~2.5|~3.0"
+                },
+                "require-dev": {
+                    "drupal/coder": "~8.2.0",
+                    "drush-ops/behat-drush-endpoint": "*",
+                    "jakub-onderka/php-parallel-lint": "^0.9.2",
+                    "mockery/mockery": "0.9.4",
+                    "phpspec/phpspec": "~2.0",
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2018-02-09T18:02:28+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Drupal\\Driver": "src/",
+                        "Drupal\\Tests\\Driver": "tests/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Jonathan Hedstrom",
+                        "email": "jhedstrom@gmail.com"
+                    }
+                ],
+                "description": "A collection of reusable Drupal drivers",
+                "homepage": "http://github.com/jhedstrom/DrupalDriver",
+                "keywords": [
+                    "drupal",
+                    "test",
+                    "web"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "packages": {
+        "symfony/psr-http-message-bridge": []
+    }
+}

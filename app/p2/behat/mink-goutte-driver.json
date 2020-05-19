@@ -1,0 +1,62 @@
+{
+    "packages": {
+        "behat/mink-goutte-driver": [
+            {
+                "name": "behat/mink-goutte-driver",
+                "version": "v1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/minkphp/MinkGoutteDriver.git",
+                    "reference": "8b9ad6d2d95bc70b840d15323365f52fcdaea6ca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/minkphp/MinkGoutteDriver/zipball/8b9ad6d2d95bc70b840d15323365f52fcdaea6ca",
+                    "reference": "8b9ad6d2d95bc70b840d15323365f52fcdaea6ca",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/mink": "~1.6@dev",
+                    "behat/mink-browserkit-driver": "~1.2@dev",
+                    "fabpot/goutte": "~1.0.4|~2.0|~3.1",
+                    "php": ">=5.3.1"
+                },
+                "require-dev": {
+                    "symfony/phpunit-bridge": "~2.7|~3.0"
+                },
+                "time": "2016-03-05T09:04:22+00:00",
+                "type": "mink-driver",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Behat\\Mink\\Driver\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Konstantin Kudryashov",
+                        "email": "ever.zet@gmail.com",
+                        "homepage": "http://everzet.com"
+                    }
+                ],
+                "description": "Goutte driver for Mink framework",
+                "homepage": "http://mink.behat.org/",
+                "keywords": [
+                    "browser",
+                    "goutte",
+                    "headless",
+                    "testing"
+                ]
+            }
+        ]
+    }
+}

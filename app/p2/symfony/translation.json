@@ -1,0 +1,303 @@
+{
+    "packages": {
+        "symfony/translation": [
+            {
+                "name": "symfony/translation",
+                "version": "v3.4.35",
+                "version_normalized": "3.4.35.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation.git",
+                    "reference": "2031c895bc97ac1787d418d90bd1ed7d299f2772"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/translation/zipball/2031c895bc97ac1787d418d90bd1ed7d299f2772",
+                    "reference": "2031c895bc97ac1787d418d90bd1ed7d299f2772",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/config": "<2.8",
+                    "symfony/dependency-injection": "<3.4",
+                    "symfony/yaml": "<3.4"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "~2.8|~3.0|~4.0",
+                    "symfony/dependency-injection": "~3.4|~4.0",
+                    "symfony/finder": "~2.8|~3.0|~4.0",
+                    "symfony/http-kernel": "~3.4|~4.0",
+                    "symfony/intl": "^2.8.18|^3.2.5|~4.0",
+                    "symfony/var-dumper": "~3.4|~4.0",
+                    "symfony/yaml": "~3.4|~4.0"
+                },
+                "suggest": {
+                    "psr/log-implementation": "To use logging capability in translator",
+                    "symfony/config": "",
+                    "symfony/yaml": ""
+                },
+                "time": "2019-10-30T12:43:22+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Translation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Translation Component",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/translation",
+                "version": "v3.4.40",
+                "version_normalized": "3.4.40.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation.git",
+                    "reference": "4e844362f573713e6d45949795c95a4cb6cf760d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/translation/zipball/4e844362f573713e6d45949795c95a4cb6cf760d",
+                    "reference": "4e844362f573713e6d45949795c95a4cb6cf760d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/config": "<2.8",
+                    "symfony/dependency-injection": "<3.4",
+                    "symfony/yaml": "<3.4"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "~2.8|~3.0|~4.0",
+                    "symfony/dependency-injection": "~3.4|~4.0",
+                    "symfony/finder": "~2.8|~3.0|~4.0",
+                    "symfony/http-kernel": "~3.4|~4.0",
+                    "symfony/intl": "^2.8.18|^3.2.5|~4.0",
+                    "symfony/var-dumper": "~3.4|~4.0",
+                    "symfony/yaml": "~3.4|~4.0"
+                },
+                "suggest": {
+                    "psr/log-implementation": "To use logging capability in translator",
+                    "symfony/config": "",
+                    "symfony/yaml": ""
+                },
+                "time": "2020-04-12T16:39:58+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Translation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Translation Component",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/translation",
+                "version": "v4.4.8",
+                "version_normalized": "4.4.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation.git",
+                    "reference": "8272bbd2b7e220ef812eba2a2b30068a5c64b191"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/translation/zipball/8272bbd2b7e220ef812eba2a2b30068a5c64b191",
+                    "reference": "8272bbd2b7e220ef812eba2a2b30068a5c64b191",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.1.3",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/translation-contracts": "^1.1.6|^2"
+                },
+                "conflict": {
+                    "symfony/config": "<3.4",
+                    "symfony/dependency-injection": "<3.4",
+                    "symfony/http-kernel": "<4.4",
+                    "symfony/yaml": "<3.4"
+                },
+                "provide": {
+                    "symfony/translation-implementation": "1.0"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "^3.4|^4.0|^5.0",
+                    "symfony/console": "^3.4|^4.0|^5.0",
+                    "symfony/dependency-injection": "^3.4|^4.0|^5.0",
+                    "symfony/finder": "~2.8|~3.0|~4.0|^5.0",
+                    "symfony/http-kernel": "^4.4",
+                    "symfony/intl": "^3.4|^4.0|^5.0",
+                    "symfony/service-contracts": "^1.1.2|^2",
+                    "symfony/yaml": "^3.4|^4.0|^5.0"
+                },
+                "suggest": {
+                    "psr/log-implementation": "To use logging capability in translator",
+                    "symfony/config": "",
+                    "symfony/yaml": ""
+                },
+                "time": "2020-04-12T16:45:36+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Translation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Translation Component",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/translation",
+                "version": "v5.0.8",
+                "version_normalized": "5.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation.git",
+                    "reference": "c3879db7a68fe3e12b41263b05879412c87b27fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/translation/zipball/c3879db7a68fe3e12b41263b05879412c87b27fd",
+                    "reference": "c3879db7a68fe3e12b41263b05879412c87b27fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.2.5",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/translation-contracts": "^2"
+                },
+                "conflict": {
+                    "symfony/config": "<4.4",
+                    "symfony/dependency-injection": "<5.0",
+                    "symfony/http-kernel": "<5.0",
+                    "symfony/twig-bundle": "<5.0",
+                    "symfony/yaml": "<4.4"
+                },
+                "provide": {
+                    "symfony/translation-implementation": "2.0"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "^4.4|^5.0",
+                    "symfony/console": "^4.4|^5.0",
+                    "symfony/dependency-injection": "^5.0",
+                    "symfony/finder": "^4.4|^5.0",
+                    "symfony/http-kernel": "^5.0",
+                    "symfony/intl": "^4.4|^5.0",
+                    "symfony/service-contracts": "^1.1.2|^2",
+                    "symfony/yaml": "^4.4|^5.0"
+                },
+                "suggest": {
+                    "psr/log-implementation": "To use logging capability in translator",
+                    "symfony/config": "",
+                    "symfony/yaml": ""
+                },
+                "time": "2020-04-12T16:45:47+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Translation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Translation Component",
+                "homepage": "https://symfony.com"
+            }
+        ]
+    }
+}

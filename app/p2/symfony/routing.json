@@ -1,0 +1,160 @@
+{
+    "packages": {
+        "symfony/routing": [
+            {
+                "name": "symfony/routing",
+                "version": "v3.4.35",
+                "version_normalized": "3.4.35.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/routing.git",
+                    "reference": "afc10b9c6b5196e0fecbc3bd373c7b4482e5b6b5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/routing/zipball/afc10b9c6b5196e0fecbc3bd373c7b4482e5b6b5",
+                    "reference": "afc10b9c6b5196e0fecbc3bd373c7b4482e5b6b5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8"
+                },
+                "conflict": {
+                    "symfony/config": "<3.3.1",
+                    "symfony/dependency-injection": "<3.3",
+                    "symfony/yaml": "<3.4"
+                },
+                "require-dev": {
+                    "doctrine/annotations": "~1.0",
+                    "psr/log": "~1.0",
+                    "symfony/config": "^3.3.1|~4.0",
+                    "symfony/dependency-injection": "~3.3|~4.0",
+                    "symfony/expression-language": "~2.8|~3.0|~4.0",
+                    "symfony/http-foundation": "~2.8|~3.0|~4.0",
+                    "symfony/yaml": "~3.4|~4.0"
+                },
+                "suggest": {
+                    "doctrine/annotations": "For using the annotation loader",
+                    "symfony/config": "For using the all-in-one router or any loader",
+                    "symfony/expression-language": "For using expression matching",
+                    "symfony/http-foundation": "For using a Symfony Request object",
+                    "symfony/yaml": "For using the YAML loader"
+                },
+                "time": "2019-11-08T17:25:00+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Routing\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Routing Component",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "router",
+                    "routing",
+                    "uri",
+                    "url"
+                ]
+            },
+            {
+                "name": "symfony/routing",
+                "version": "v3.4.40",
+                "version_normalized": "3.4.40.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/routing.git",
+                    "reference": "53b432fde8eea7dab820e75abda5b97fdaa829b4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/routing/zipball/53b432fde8eea7dab820e75abda5b97fdaa829b4",
+                    "reference": "53b432fde8eea7dab820e75abda5b97fdaa829b4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8"
+                },
+                "conflict": {
+                    "symfony/config": "<3.3.1",
+                    "symfony/dependency-injection": "<3.3",
+                    "symfony/yaml": "<3.4"
+                },
+                "require-dev": {
+                    "doctrine/annotations": "~1.0",
+                    "psr/log": "~1.0",
+                    "symfony/config": "^3.3.1|~4.0",
+                    "symfony/dependency-injection": "~3.3|~4.0",
+                    "symfony/expression-language": "~2.8|~3.0|~4.0",
+                    "symfony/http-foundation": "~2.8|~3.0|~4.0",
+                    "symfony/yaml": "~3.4|~4.0"
+                },
+                "suggest": {
+                    "doctrine/annotations": "For using the annotation loader",
+                    "symfony/config": "For using the all-in-one router or any loader",
+                    "symfony/expression-language": "For using expression matching",
+                    "symfony/http-foundation": "For using a Symfony Request object",
+                    "symfony/yaml": "For using the YAML loader"
+                },
+                "time": "2020-04-12T09:58:27+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Routing\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Routing Component",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "router",
+                    "routing",
+                    "uri",
+                    "url"
+                ]
+            }
+        ]
+    }
+}

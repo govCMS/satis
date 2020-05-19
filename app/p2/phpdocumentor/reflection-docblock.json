@@ -1,0 +1,60 @@
+{
+    "packages": {
+        "phpdocumentor/reflection-docblock": [
+            {
+                "name": "phpdocumentor/reflection-docblock",
+                "version": "5.1.0",
+                "version_normalized": "5.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+                    "reference": "cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e",
+                    "reference": "cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-filter": "^7.1",
+                    "php": "^7.2",
+                    "phpdocumentor/reflection-common": "^2.0",
+                    "phpdocumentor/type-resolver": "^1.0",
+                    "webmozart/assert": "^1"
+                },
+                "require-dev": {
+                    "doctrine/instantiator": "^1",
+                    "mockery/mockery": "^1"
+                },
+                "time": "2020-02-22T12:28:44+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "phpDocumentor\\Reflection\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike van Riel",
+                        "email": "me@mikevanriel.com"
+                    },
+                    {
+                        "name": "Jaap van Otterdijk",
+                        "email": "account@ijaap.nl"
+                    }
+                ],
+                "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock."
+            }
+        ]
+    }
+}

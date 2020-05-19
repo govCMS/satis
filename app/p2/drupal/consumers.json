@@ -1,0 +1,58 @@
+{
+    "packages": {
+        "drupal/consumers": [
+            {
+                "name": "drupal/consumers",
+                "version": "1.9.0",
+                "version_normalized": "1.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/consumers.git",
+                    "reference": "8.x-1.9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://ftp.drupal.org/files/projects/consumers-8.x-1.9.zip",
+                    "reference": "8.x-1.9",
+                    "shasum": "c0fbff0b88da87ae5d5c980f4c9aed15db4301f6"
+                },
+                "require": {
+                    "drupal/core": "*"
+                },
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-1.x": "1.x-dev"
+                    },
+                    "drupal": {
+                        "version": "8.x-1.9",
+                        "datestamp": "1574140673",
+                        "security-coverage": {
+                            "status": "covered",
+                            "message": "Covered by Drupal's security advisory policy"
+                        }
+                    }
+                },
+                "notification-url": "https://packages.drupal.org/8/downloads",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "e0ipso",
+                        "homepage": "https://www.drupal.org/user/550110"
+                    },
+                    {
+                        "name": "eojthebrave",
+                        "homepage": "https://www.drupal.org/user/79230"
+                    }
+                ],
+                "description": "Declare all the consumers of your API",
+                "homepage": "https://www.drupal.org/project/consumers",
+                "support": {
+                    "source": "https://git.drupalcode.org/project/consumers"
+                }
+            }
+        ]
+    }
+}

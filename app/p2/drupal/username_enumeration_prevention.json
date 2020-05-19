@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "drupal/username_enumeration_prevention": [
+            {
+                "name": "drupal/username_enumeration_prevention",
+                "version": "1.0.0-beta2",
+                "version_normalized": "1.0.0.0-beta2",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/username_enumeration_prevention.git",
+                    "reference": "8.x-1.0-beta2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://ftp.drupal.org/files/projects/username_enumeration_prevention-8.x-1.0-beta2.zip",
+                    "reference": "8.x-1.0-beta2",
+                    "shasum": "76567c56a86fc2f2510cf204d74b4ed0aa5a3fbd"
+                },
+                "require": {
+                    "drupal/core": "~8.0"
+                },
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-1.x": "1.x-dev"
+                    },
+                    "drupal": {
+                        "version": "8.x-1.0-beta2",
+                        "datestamp": "1575368885",
+                        "security-coverage": {
+                            "status": "not-covered",
+                            "message": "Beta releases are not covered by Drupal security advisories."
+                        }
+                    }
+                },
+                "notification-url": "https://packages.drupal.org/8/downloads",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "nicksanta",
+                        "homepage": "https://www.drupal.org/user/87915"
+                    }
+                ],
+                "description": "Prevents username enumeration on password reset and user pages.",
+                "homepage": "https://www.drupal.org/project/username_enumeration_prevention",
+                "support": {
+                    "source": "https://git.drupalcode.org/project/username_enumeration_prevention"
+                }
+            }
+        ]
+    }
+}
