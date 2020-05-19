@@ -96,6 +96,10 @@ commands:
       ahoy debug master
       ahoy debug develop
 
+  build-security-update:
+    cmd: |
+      ahoy satis-build satis-config/govcms-security_update.json app/security_update
+
   server:
     usage: Make satis available on localhost:4142
     cmd: |
