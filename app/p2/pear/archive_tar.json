@@ -1,0 +1,73 @@
+{
+    "packages": {
+        "pear/archive_tar": [
+            {
+                "name": "pear/archive_tar",
+                "version": "1.4.9",
+                "version_normalized": "1.4.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pear/Archive_Tar.git",
+                    "reference": "c5b00053770e1d72128252c62c2c1a12c26639f0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pear/Archive_Tar/zipball/c5b00053770e1d72128252c62c2c1a12c26639f0",
+                    "reference": "c5b00053770e1d72128252c62c2c1a12c26639f0",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear/pear-core-minimal": "^1.10.0alpha2",
+                    "php": ">=5.2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*"
+                },
+                "suggest": {
+                    "ext-bz2": "Bz2 compression support.",
+                    "ext-xz": "Lzma2 compression support.",
+                    "ext-zlib": "Gzip compression support."
+                },
+                "time": "2019-12-04T10:17:28+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Archive_Tar": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "include-path": [
+                    "./"
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Vincent Blavet",
+                        "email": "vincent@phpconcept.net"
+                    },
+                    {
+                        "name": "Greg Beaver",
+                        "email": "greg@chiaraquartet.net"
+                    },
+                    {
+                        "name": "Michiel Rook",
+                        "email": "mrook@php.net"
+                    }
+                ],
+                "description": "Tar file management class with compression support (gzip, bzip2, lzma2)",
+                "homepage": "https://github.com/pear/Archive_Tar",
+                "keywords": [
+                    "archive",
+                    "tar"
+                ]
+            }
+        ]
+    }
+}

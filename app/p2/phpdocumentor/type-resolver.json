@@ -1,0 +1,53 @@
+{
+    "packages": {
+        "phpdocumentor/type-resolver": [
+            {
+                "name": "phpdocumentor/type-resolver",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/phpDocumentor/TypeResolver.git",
+                    "reference": "7462d5f123dfc080dfdf26897032a6513644fc95"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/7462d5f123dfc080dfdf26897032a6513644fc95",
+                    "reference": "7462d5f123dfc080dfdf26897032a6513644fc95",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.2",
+                    "phpdocumentor/reflection-common": "^2.0"
+                },
+                "require-dev": {
+                    "ext-tokenizer": "^7.2",
+                    "mockery/mockery": "~1"
+                },
+                "time": "2020-02-18T18:59:58+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "phpDocumentor\\Reflection\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike van Riel",
+                        "email": "me@mikevanriel.com"
+                    }
+                ],
+                "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names"
+            }
+        ]
+    }
+}

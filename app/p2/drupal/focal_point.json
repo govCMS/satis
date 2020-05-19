@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "drupal/focal_point": [
+            {
+                "name": "drupal/focal_point",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/focal_point.git",
+                    "reference": "8.x-1.2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://ftp.drupal.org/files/projects/focal_point-8.x-1.2.zip",
+                    "reference": "8.x-1.2",
+                    "shasum": "b274a5f4484ce99dece492dc7ae7149b34982244"
+                },
+                "require": {
+                    "drupal/core": "*",
+                    "drupal/crop": "*"
+                },
+                "require-dev": {
+                    "drupal/crop": "*"
+                },
+                "type": "drupal-module",
+                "extra": {
+                    "drupal": {
+                        "version": "8.x-1.2",
+                        "datestamp": "1569333485",
+                        "security-coverage": {
+                            "status": "covered",
+                            "message": "Covered by Drupal's security advisory policy"
+                        }
+                    }
+                },
+                "notification-url": "https://packages.drupal.org/8/downloads",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "bleen",
+                        "homepage": "https://www.drupal.org/user/77375"
+                    }
+                ],
+                "description": "Allows users to specify the focal point of an image for use during cropping.",
+                "homepage": "https://www.drupal.org/project/focal_point",
+                "support": {
+                    "source": "https://git.drupalcode.org/project/focal_point"
+                }
+            }
+        ]
+    }
+}

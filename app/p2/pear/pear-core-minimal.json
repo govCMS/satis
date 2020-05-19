@@ -1,0 +1,96 @@
+{
+    "packages": {
+        "pear/pear-core-minimal": [
+            {
+                "name": "pear/pear-core-minimal",
+                "version": "v1.10.10",
+                "version_normalized": "1.10.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pear/pear-core-minimal.git",
+                    "reference": "625a3c429d9b2c1546438679074cac1b089116a7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/625a3c429d9b2c1546438679074cac1b089116a7",
+                    "reference": "625a3c429d9b2c1546438679074cac1b089116a7",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear/console_getopt": "~1.4",
+                    "pear/pear_exception": "~1.0"
+                },
+                "replace": {
+                    "rsky/pear-core-min": "self.version"
+                },
+                "time": "2019-11-19T19:00:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "include-path": [
+                    "src/"
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Christian Weiske",
+                        "email": "cweiske@php.net",
+                        "role": "Lead"
+                    }
+                ],
+                "description": "Minimal set of PEAR core files to be used as composer dependency"
+            },
+            {
+                "name": "pear/pear-core-minimal",
+                "version": "v1.10.9",
+                "version_normalized": "1.10.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pear/pear-core-minimal.git",
+                    "reference": "742be8dd68c746a01e4b0a422258e9c9cae1c37f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/742be8dd68c746a01e4b0a422258e9c9cae1c37f",
+                    "reference": "742be8dd68c746a01e4b0a422258e9c9cae1c37f",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear/console_getopt": "~1.4",
+                    "pear/pear_exception": "~1.0"
+                },
+                "replace": {
+                    "rsky/pear-core-min": "self.version"
+                },
+                "time": "2019-03-13T18:15:44+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "include-path": [
+                    "src/"
+                ],
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Christian Weiske",
+                        "email": "cweiske@php.net",
+                        "role": "Lead"
+                    }
+                ],
+                "description": "Minimal set of PEAR core files to be used as composer dependency"
+            }
+        ]
+    }
+}

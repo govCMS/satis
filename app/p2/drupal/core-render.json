@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "drupal/core-render": [
+            {
+                "name": "drupal/core-render",
+                "version": "8.8.5",
+                "version_normalized": "8.8.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/drupal/core-render.git",
+                    "reference": "d20b0afe9ca3ca768c6e828442e4cdebbb2cfeec"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/drupal/core-render/zipball/d20b0afe9ca3ca768c6e828442e4cdebbb2cfeec",
+                    "reference": "d20b0afe9ca3ca768c6e828442e4cdebbb2cfeec",
+                    "shasum": ""
+                },
+                "require": {
+                    "drupal/core-utility": "^8.8",
+                    "php": ">=7.0.8"
+                },
+                "time": "2019-10-10T19:45:32+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Drupal\\Component\\Render\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Renders placeholder variables for HTML and plain-text display.",
+                "homepage": "https://www.drupal.org/project/drupal",
+                "keywords": [
+                    "drupal"
+                ]
+            }
+        ]
+    }
+}

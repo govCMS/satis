@@ -1,0 +1,180 @@
+{
+    "packages": {
+        "symfony/validator": [
+            {
+                "name": "symfony/validator",
+                "version": "v3.4.35",
+                "version_normalized": "3.4.35.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/validator.git",
+                    "reference": "b11f45742c5c9a228cedc46b70c6317780a1ac80"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/validator/zipball/b11f45742c5c9a228cedc46b70c6317780a1ac80",
+                    "reference": "b11f45742c5c9a228cedc46b70c6317780a1ac80",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8",
+                    "symfony/polyfill-ctype": "~1.8",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/translation": "~2.8|~3.0|~4.0"
+                },
+                "conflict": {
+                    "doctrine/lexer": "<1.0.2",
+                    "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
+                    "symfony/dependency-injection": "<3.3",
+                    "symfony/http-kernel": "<3.3.5",
+                    "symfony/yaml": "<3.4"
+                },
+                "require-dev": {
+                    "doctrine/annotations": "~1.7",
+                    "doctrine/cache": "~1.0",
+                    "egulias/email-validator": "^2.1.10",
+                    "symfony/cache": "~3.1|~4.0",
+                    "symfony/config": "~2.8|~3.0|~4.0",
+                    "symfony/dependency-injection": "~3.3|~4.0",
+                    "symfony/expression-language": "~2.8|~3.0|~4.0",
+                    "symfony/http-foundation": "~2.8|~3.0|~4.0",
+                    "symfony/http-kernel": "^3.3.5|~4.0",
+                    "symfony/intl": "^2.8.18|^3.2.5|~4.0",
+                    "symfony/property-access": "~2.8|~3.0|~4.0",
+                    "symfony/var-dumper": "~3.3|~4.0",
+                    "symfony/yaml": "~3.4|~4.0"
+                },
+                "suggest": {
+                    "doctrine/annotations": "For using the annotation mapping. You will also need doctrine/cache.",
+                    "doctrine/cache": "For using the default cached annotation reader and metadata cache.",
+                    "egulias/email-validator": "Strict (RFC compliant) email validation",
+                    "psr/cache-implementation": "For using the metadata cache.",
+                    "symfony/config": "",
+                    "symfony/expression-language": "For using the Expression validator",
+                    "symfony/http-foundation": "",
+                    "symfony/intl": "",
+                    "symfony/property-access": "For accessing properties within comparison constraints",
+                    "symfony/yaml": ""
+                },
+                "time": "2019-11-05T22:03:38+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Validator\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Validator Component",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/validator",
+                "version": "v3.4.40",
+                "version_normalized": "3.4.40.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/validator.git",
+                    "reference": "0d4d26bacafdead3b73586302fc5019efdfbdb2e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/validator/zipball/0d4d26bacafdead3b73586302fc5019efdfbdb2e",
+                    "reference": "0d4d26bacafdead3b73586302fc5019efdfbdb2e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8",
+                    "symfony/polyfill-ctype": "~1.8",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/translation": "~2.8|~3.0|~4.0"
+                },
+                "conflict": {
+                    "doctrine/lexer": "<1.0.2",
+                    "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
+                    "symfony/dependency-injection": "<3.3",
+                    "symfony/http-kernel": "<3.3.5",
+                    "symfony/yaml": "<3.4"
+                },
+                "require-dev": {
+                    "doctrine/annotations": "~1.7",
+                    "doctrine/cache": "~1.0",
+                    "egulias/email-validator": "^2.1.10",
+                    "symfony/cache": "~3.1|~4.0",
+                    "symfony/config": "~2.8|~3.0|~4.0",
+                    "symfony/dependency-injection": "~3.3|~4.0",
+                    "symfony/expression-language": "~2.8|~3.0|~4.0",
+                    "symfony/http-foundation": "~2.8|~3.0|~4.0",
+                    "symfony/http-kernel": "^3.3.5|~4.0",
+                    "symfony/intl": "^2.8.18|^3.2.5|~4.0",
+                    "symfony/property-access": "~2.8|~3.0|~4.0",
+                    "symfony/var-dumper": "~3.3|~4.0",
+                    "symfony/yaml": "~3.4|~4.0"
+                },
+                "suggest": {
+                    "doctrine/annotations": "For using the annotation mapping. You will also need doctrine/cache.",
+                    "doctrine/cache": "For using the default cached annotation reader and metadata cache.",
+                    "egulias/email-validator": "Strict (RFC compliant) email validation",
+                    "psr/cache-implementation": "For using the metadata cache.",
+                    "symfony/config": "",
+                    "symfony/expression-language": "For using the Expression validator",
+                    "symfony/http-foundation": "",
+                    "symfony/intl": "",
+                    "symfony/property-access": "For accessing properties within comparison constraints",
+                    "symfony/yaml": ""
+                },
+                "time": "2020-04-26T08:10:12+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Validator\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Validator Component",
+                "homepage": "https://symfony.com"
+            }
+        ]
+    }
+}

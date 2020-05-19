@@ -1,0 +1,68 @@
+{
+    "packages": {
+        "maennchen/zipstream-php": [
+            {
+                "name": "maennchen/zipstream-php",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/maennchen/ZipStream-PHP.git",
+                    "reference": "6373eefe0b3274d7b702d81f2c99aa977ff97dc2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/maennchen/ZipStream-PHP/zipball/6373eefe0b3274d7b702d81f2c99aa977ff97dc2",
+                    "reference": "6373eefe0b3274d7b702d81f2c99aa977ff97dc2",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-mbstring": "*",
+                    "myclabs/php-enum": "^1.5",
+                    "php": ">= 7.1",
+                    "psr/http-message": "^1.0"
+                },
+                "require-dev": {
+                    "ext-zip": "*",
+                    "guzzlehttp/guzzle": ">= 6.3",
+                    "mikey179/vfsstream": "^1.6",
+                    "phpunit/phpunit": ">= 7.5"
+                },
+                "time": "2019-07-17T11:01:58+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "ZipStream\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Paul Duncan",
+                        "email": "pabs@pablotron.org"
+                    },
+                    {
+                        "name": "Jesse Donat",
+                        "email": "donatj@gmail.com"
+                    },
+                    {
+                        "name": "Jonatan Männchen",
+                        "email": "jonatan@maennchen.ch"
+                    },
+                    {
+                        "name": "András Kolesár",
+                        "email": "kolesar@kolesar.hu"
+                    }
+                ],
+                "description": "ZipStream is a library for dynamically streaming dynamic zip files from PHP without writing to the disk at all on the server.",
+                "keywords": [
+                    "stream",
+                    "zip"
+                ]
+            }
+        ]
+    }
+}

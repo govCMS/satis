@@ -1,0 +1,5 @@
+{
+    "packages": {
+        "behat/mink-selenium2-driver": []
+    }
+}

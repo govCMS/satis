@@ -10,7 +10,7 @@
     ],
     "require": {
         "govcms/govcms": "1.3.0",
-        "govcms/scaffold-tooling": "2.0.0",
+        "govcms/scaffold-tooling": "1.1.0|2.0.1",
         "govcms/require-dev": "1.0.2",
         "consolidation/log": "1.1.1",
         "drupal/ctools_block": "3.2.0",

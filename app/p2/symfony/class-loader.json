@@ -1,0 +1,120 @@
+{
+    "packages": {
+        "symfony/class-loader": [
+            {
+                "name": "symfony/class-loader",
+                "version": "v3.4.35",
+                "version_normalized": "3.4.35.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/class-loader.git",
+                    "reference": "e212b06996819a2bce026a63da03b7182d05a690"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/class-loader/zipball/e212b06996819a2bce026a63da03b7182d05a690",
+                    "reference": "e212b06996819a2bce026a63da03b7182d05a690",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8"
+                },
+                "require-dev": {
+                    "symfony/finder": "~2.8|~3.0|~4.0",
+                    "symfony/polyfill-apcu": "~1.1"
+                },
+                "suggest": {
+                    "symfony/polyfill-apcu": "For using ApcClassLoader on HHVM"
+                },
+                "time": "2019-08-20T13:31:17+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\ClassLoader\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony ClassLoader Component",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/class-loader",
+                "version": "v3.4.40",
+                "version_normalized": "3.4.40.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/class-loader.git",
+                    "reference": "e4636a4f23f157278a19e5db160c63de0da297d8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/class-loader/zipball/e4636a4f23f157278a19e5db160c63de0da297d8",
+                    "reference": "e4636a4f23f157278a19e5db160c63de0da297d8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8"
+                },
+                "require-dev": {
+                    "symfony/finder": "~2.8|~3.0|~4.0",
+                    "symfony/polyfill-apcu": "~1.1"
+                },
+                "suggest": {
+                    "symfony/polyfill-apcu": "For using ApcClassLoader on HHVM"
+                },
+                "time": "2020-03-15T09:38:08+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\ClassLoader\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony ClassLoader Component",
+                "homepage": "https://symfony.com"
+            }
+        ]
+    }
+}

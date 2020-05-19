@@ -1,0 +1,5 @@
+{
+    "packages": {
+        "php-coveralls/php-coveralls": []
+    }
+}

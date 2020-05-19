@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "mkalkbrenner/php-htmldiff-advanced": [
+            {
+                "name": "mkalkbrenner/php-htmldiff-advanced",
+                "version": "0.0.8",
+                "version_normalized": "0.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mkalkbrenner/php-htmldiff.git",
+                    "reference": "3a714b48c9c3d3730baaf6d3949691e654cd37c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mkalkbrenner/php-htmldiff/zipball/3a714b48c9c3d3730baaf6d3949691e654cd37c9",
+                    "reference": "3a714b48c9c3d3730baaf6d3949691e654cd37c9",
+                    "shasum": ""
+                },
+                "require": {
+                    "caxy/php-htmldiff": ">=0.0.6",
+                    "php": ">=5.5.0"
+                },
+                "time": "2016-07-25T17:07:32+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/HtmlDiffAdvancedInterface.php",
+                        "src/HtmlDiffAdvanced.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "GNU General Public License V2"
+                ],
+                "description": "An add-on for the php-htmldiff library for comparing two HTML files/snippets and highlighting the differences using simple HTML.",
+                "homepage": "https://github.com/mkalkbrenner/php-htmldiff",
+                "keywords": [
+                    "diff",
+                    "html"
+                ]
+            }
+        ]
+    }
+}

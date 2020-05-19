@@ -1,0 +1,67 @@
+{
+    "packages": {
+        "dflydev/dot-access-configuration": [
+            {
+                "name": "dflydev/dot-access-configuration",
+                "version": "v1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dflydev/dflydev-dot-access-configuration.git",
+                    "reference": "2e6eb0c8b8830b26bb23defcfc38d4276508fc49"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-configuration/zipball/2e6eb0c8b8830b26bb23defcfc38d4276508fc49",
+                    "reference": "2e6eb0c8b8830b26bb23defcfc38d4276508fc49",
+                    "shasum": ""
+                },
+                "require": {
+                    "dflydev/dot-access-data": "1.*",
+                    "dflydev/placeholder-resolver": "1.*",
+                    "php": ">=5.3.2"
+                },
+                "require-dev": {
+                    "symfony/yaml": "~2.1"
+                },
+                "suggest": {
+                    "symfony/yaml": "Required for using the YAML Configuration Builders"
+                },
+                "time": "2018-09-08T23:00:17+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Dflydev\\DotAccessConfiguration": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dragonfly Development Inc.",
+                        "email": "info@dflydev.com",
+                        "homepage": "http://dflydev.com"
+                    },
+                    {
+                        "name": "Beau Simensen",
+                        "email": "beau@dflydev.com",
+                        "homepage": "http://beausimensen.com"
+                    }
+                ],
+                "description": "Given a deep data structure representing a configuration, access configuration by dot notation.",
+                "homepage": "https://github.com/dflydev/dflydev-dot-access-configuration",
+                "keywords": [
+                    "config",
+                    "configuration"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "drupal/linkit": [
+            {
+                "name": "drupal/linkit",
+                "version": "5.0.0-beta9",
+                "version_normalized": "5.0.0.0-beta9",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/linkit.git",
+                    "reference": "8.x-5.0-beta9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://ftp.drupal.org/files/projects/linkit-8.x-5.0-beta9.zip",
+                    "reference": "8.x-5.0-beta9",
+                    "shasum": "150291dd87a4f65027492020c28635e2b5249d1a"
+                },
+                "require": {
+                    "drupal/core": "~8.0"
+                },
+                "require-dev": {
+                    "drupal/imce": "*"
+                },
+                "type": "drupal-module",
+                "extra": {
+                    "drupal": {
+                        "version": "8.x-5.0-beta9",
+                        "datestamp": "1573783085",
+                        "security-coverage": {
+                            "status": "not-covered",
+                            "message": "Beta releases are not covered by Drupal security advisories."
+                        }
+                    }
+                },
+                "notification-url": "https://packages.drupal.org/8/downloads",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Emil Stjerneman",
+                        "homepage": "https://stjerneman.com",
+                        "email": "emil@stjerneman.com",
+                        "role": "Maintainer"
+                    }
+                ],
+                "description": "Linkit - Enriched linking experience",
+                "homepage": "http://drupal.org/project/linkit",
+                "support": {
+                    "source": "http://cgit.drupalcode.org/linkit",
+                    "issues": "http://drupal.org/project/linkit"
+                }
+            }
+        ]
+    }
+}

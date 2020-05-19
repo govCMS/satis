@@ -1,0 +1,61 @@
+{
+    "packages": {
+        "drupal/real_aes": [
+            {
+                "name": "drupal/real_aes",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/real_aes.git",
+                    "reference": "8.x-2.2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://ftp.drupal.org/files/projects/real_aes-8.x-2.2.zip",
+                    "reference": "8.x-2.2",
+                    "shasum": "292bb36b322ba1758d3a45ae5dbd34ebe64c9c59"
+                },
+                "require": {
+                    "defuse/php-encryption": "^2.0",
+                    "drupal/core": "~8.0",
+                    "drupal/encrypt": "*"
+                },
+                "type": "drupal-module",
+                "extra": {
+                    "drupal": {
+                        "version": "8.x-2.2",
+                        "datestamp": "1552499284",
+                        "security-coverage": {
+                            "status": "covered",
+                            "message": "Covered by Drupal's security advisory policy"
+                        }
+                    }
+                },
+                "notification-url": "https://packages.drupal.org/8/downloads",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Heine",
+                        "homepage": "https://www.drupal.org/user/17943"
+                    },
+                    {
+                        "name": "nerdstein",
+                        "homepage": "https://www.drupal.org/user/1557710"
+                    },
+                    {
+                        "name": "rlhawk",
+                        "homepage": "https://www.drupal.org/user/352283"
+                    }
+                ],
+                "description": "Provides an Authenticated AES encryption method for Encrypt though the Defuse PHP Encryption library.",
+                "homepage": "https://www.drupal.org/project/real_aes",
+                "support": {
+                    "source": "https://git.drupalcode.org/project/real_aes"
+                }
+            }
+        ]
+    }
+}

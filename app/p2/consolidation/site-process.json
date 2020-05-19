@@ -1,0 +1,79 @@
+{
+    "packages": {
+        "consolidation/site-process": [
+            {
+                "name": "consolidation/site-process",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/consolidation/site-process.git",
+                    "reference": "f3211fa4c60671c6f068184221f06f932556e443"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/consolidation/site-process/zipball/f3211fa4c60671c6f068184221f06f932556e443",
+                    "reference": "f3211fa4c60671c6f068184221f06f932556e443",
+                    "shasum": ""
+                },
+                "require": {
+                    "consolidation/config": "^1.2.1",
+                    "consolidation/site-alias": "^3",
+                    "php": ">=5.6.0",
+                    "symfony/process": "^3.4"
+                },
+                "require-dev": {
+                    "consolidation/robo": "^1.3",
+                    "g1a/composer-test-scenarios": "^3",
+                    "knplabs/github-api": "^2.7",
+                    "php-coveralls/php-coveralls": "^1",
+                    "php-http/guzzle6-adapter": "^1.1",
+                    "phpunit/phpunit": "^6",
+                    "squizlabs/php_codesniffer": "^2.8"
+                },
+                "time": "2019-09-10T17:56:24+00:00",
+                "type": "library",
+                "extra": {
+                    "scenarios": {
+                        "phpunit5": {
+                            "require-dev": {
+                                "phpunit/phpunit": "^5.7.27"
+                            },
+                            "remove": [
+                                "php-coveralls/php-coveralls"
+                            ],
+                            "config": {
+                                "platform": {
+                                    "php": "5.6.33"
+                                }
+                            }
+                        }
+                    },
+                    "branch-alias": {
+                        "dev-master": "0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Consolidation\\SiteProcess\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Greg Anderson",
+                        "email": "greg.1.anderson@greenknowe.org"
+                    },
+                    {
+                        "name": "Moshe Weitzman",
+                        "email": "weitzman@tejasa.com"
+                    }
+                ],
+                "description": "A thin wrapper around the Symfony Process Component that allows applications to use the Site Alias library to specify the target for a remote call."
+            }
+        ]
+    }
+}

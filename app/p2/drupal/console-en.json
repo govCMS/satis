@@ -1,0 +1,61 @@
+{
+    "packages": {
+        "drupal/console-en": [
+            {
+                "name": "drupal/console-en",
+                "version": "1.9.4",
+                "version_normalized": "1.9.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hechoendrupal/drupal-console-en.git",
+                    "reference": "30813a832fdb1244e84cbcc012cd103d5e9d673d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/hechoendrupal/drupal-console-en/zipball/30813a832fdb1244e84cbcc012cd103d5e9d673d",
+                    "reference": "30813a832fdb1244e84cbcc012cd103d5e9d673d",
+                    "shasum": ""
+                },
+                "time": "2019-10-07T23:45:30+00:00",
+                "type": "library",
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "David Flores",
+                        "email": "dmousex@gmail.com",
+                        "homepage": "http://dmouse.net"
+                    },
+                    {
+                        "name": "Jesus Manuel Olivas",
+                        "email": "jesus.olivas@gmail.com",
+                        "homepage": "http://jmolivas.com"
+                    },
+                    {
+                        "name": "Eduardo Garcia",
+                        "email": "enzo@enzolutions.com",
+                        "homepage": "http://enzolutions.com/"
+                    },
+                    {
+                        "name": "Omar Aguirre",
+                        "email": "omersguchigu@gmail.com"
+                    },
+                    {
+                        "name": "Drupal Console Contributors",
+                        "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
+                    }
+                ],
+                "description": "Drupal Console English Language",
+                "homepage": "http://drupalconsole.com/",
+                "keywords": [
+                    "console",
+                    "development",
+                    "drupal",
+                    "symfony"
+                ]
+            }
+        ]
+    }
+}
