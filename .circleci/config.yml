@@ -133,8 +133,7 @@ workflows:
             tags:
               ignore: /.*/
             branches:
-              only:
-                - upstream_changes
-                - develop
+              # Disabled while not automated.
+              ignore: /.*/
           requires:
             - test
