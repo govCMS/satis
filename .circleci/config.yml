@@ -10,9 +10,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Build or prepare satis /app
+          name: Build or prepare satis /app.
           command: |
-            # If satis build was automated, it would happen here. Currently just copy the committed /app to the build directory.
             mkdir -p "${SATIS_BUILD}"
             cp -R app/* "${SATIS_BUILD}"
       - persist_to_workspace:
@@ -31,7 +30,7 @@ jobs:
       - attach_workspace:
           at: /tmp/satis-build
       - run:
-          name: Test that GovCMS can be built
+          name: Test that GovCMS can be built.
           command: |
             # Get package versions required for testing stable release.
             VERSION_GOVCMS=$(cat ./satis-config/govcms-stable.json | jq -r '.require | .["govcms/govcms"]')
@@ -54,21 +53,21 @@ jobs:
               rm -fR vendor && rm -f composer.lock
               composer config repositories.govcms composer http://localhost:4141/"${branch}"
               if [ "${branch}" = "master" ] || [ "${branch}" = "develop" ] ; then
-                composer require --no-update \
+                php -d memory_limit=-1 "$(command -v composer)" require --no-update \
                     govcms/govcms:1.x \
                     govcms/scaffold-tooling:dev-"${branch}" \
                     govcms/require-dev:dev-"${branch}" \
                     symfony/event-dispatcher:"v4.3.11 as v3.4.35" # @todo: remove once govcms/govcms no longer requires "symfony/event-dispatcher:v4.3.11 as v3.4.35" which only works at the root composer.json level.
               else
                 echo -e "--> Expected stable versions, based on the satis config: \n     - govcms/govcms:${VERSION_GOVCMS} \n     - govcms/scaffold-tooling:${VERSION_TOOLING} \n     - govcms/require-dev:${VERSION_DEV}"
-                composer require --no-update \
+                php -d memory_limit=-1 "$(command -v composer)" require --no-update \
                     govcms/govcms:"${VERSION_GOVCMS}" \
                     govcms/scaffold-tooling:"${VERSION_TOOLING}" \
                     govcms/require-dev:"${VERSION_DEV}" \
                     symfony/event-dispatcher:"v4.3.11 as v3.4.35" # @todo: remove once govcms/govcms no longer requires "symfony/event-dispatcher:v4.3.11 as v3.4.35" which only works at the root composer.json level.
               fi
               cat composer.json | jq .require
-              composer -n --quiet --no-suggest --no-scripts update
+              php -d memory_limit=-1 "$(command -v composer)" -n --quiet --no-suggest --no-scripts update
               composer info | grep ^govcms
             done
 
