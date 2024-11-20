@@ -1,4 +1,4 @@
-# GovCMS Packagist
+# GovCMS Packagist - ARCHIVED
 
 A packagist resource managed by GovCMS for use by Composer projects. This
 packagist service only offers an essential set of packages required to build
