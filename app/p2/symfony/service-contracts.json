@@ -1,0 +1,65 @@
+{
+    "packages": {
+        "symfony/service-contracts": [
+            {
+                "name": "symfony/service-contracts",
+                "version": "v2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/service-contracts.git",
+                    "reference": "144c5e51266b281231e947b51223ba14acf1a749"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/service-contracts/zipball/144c5e51266b281231e947b51223ba14acf1a749",
+                    "reference": "144c5e51266b281231e947b51223ba14acf1a749",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.2.5",
+                    "psr/container": "^1.0"
+                },
+                "suggest": {
+                    "symfony/service-implementation": ""
+                },
+                "time": "2019-11-18T17:27:11+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Service\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to writing services",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ]
+            }
+        ]
+    }
+}

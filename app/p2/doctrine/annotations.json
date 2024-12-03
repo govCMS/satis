@@ -1,0 +1,145 @@
+{
+    "packages": {
+        "doctrine/annotations": [
+            {
+                "name": "doctrine/annotations",
+                "version": "1.10.2",
+                "version_normalized": "1.10.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/annotations.git",
+                    "reference": "b9d758e831c70751155c698c2f7df4665314a1cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/doctrine/annotations/zipball/b9d758e831c70751155c698c2f7df4665314a1cb",
+                    "reference": "b9d758e831c70751155c698c2f7df4665314a1cb",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/lexer": "1.*",
+                    "ext-tokenizer": "*",
+                    "php": "^7.1"
+                },
+                "require-dev": {
+                    "doctrine/cache": "1.*",
+                    "phpunit/phpunit": "^7.5"
+                },
+                "time": "2020-04-20T09:18:32+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.9.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com"
+                    },
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    }
+                ],
+                "description": "Docblock Annotations Parser",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "annotations",
+                    "docblock",
+                    "parser"
+                ]
+            },
+            {
+                "name": "doctrine/annotations",
+                "version": "v1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/annotations.git",
+                    "reference": "54cacc9b81758b14e3ce750f205a393d52339e97"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/doctrine/annotations/zipball/54cacc9b81758b14e3ce750f205a393d52339e97",
+                    "reference": "54cacc9b81758b14e3ce750f205a393d52339e97",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/lexer": "1.*",
+                    "php": "^5.6 || ^7.0"
+                },
+                "require-dev": {
+                    "doctrine/cache": "1.*",
+                    "phpunit/phpunit": "^5.7"
+                },
+                "time": "2017-02-24T16:22:25+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com"
+                    },
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    }
+                ],
+                "description": "Docblock Annotations Parser",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "annotations",
+                    "docblock",
+                    "parser"
+                ]
+            }
+        ]
+    }
+}

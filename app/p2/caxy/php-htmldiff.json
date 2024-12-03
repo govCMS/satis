@@ -1,0 +1,63 @@
+{
+    "packages": {
+        "caxy/php-htmldiff": [
+            {
+                "name": "caxy/php-htmldiff",
+                "version": "v0.1.9",
+                "version_normalized": "0.1.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/caxy/php-htmldiff.git",
+                    "reference": "4bad5c6a4ecc76954d37764e6a29273b6b7bf1f8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/4bad5c6a4ecc76954d37764e6a29273b6b7bf1f8",
+                    "reference": "4bad5c6a4ecc76954d37764e6a29273b6b7bf1f8",
+                    "shasum": ""
+                },
+                "require": {
+                    "ezyang/htmlpurifier": "^4.7",
+                    "kub-at/php-simple-html-dom-parser": "^1.7",
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "doctrine/cache": "~1.0",
+                    "phpunit/phpunit": "~5.0"
+                },
+                "suggest": {
+                    "doctrine/cache": "Used for caching the calculated diffs using a Doctrine Cache Provider"
+                },
+                "time": "2019-02-20T18:52:14+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Caxy\\HtmlDiff": "lib/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Josh Schroeder",
+                        "email": "jschroeder@caxy.com",
+                        "homepage": "http://www.caxy.com"
+                    }
+                ],
+                "description": "A library for comparing two HTML files/snippets and highlighting the differences using simple HTML.",
+                "homepage": "https://github.com/caxy/php-htmldiff",
+                "keywords": [
+                    "diff",
+                    "html"
+                ]
+            }
+        ]
+    }
+}

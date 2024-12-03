@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "zaporylie/composer-drupal-optimizations": [
+            {
+                "name": "zaporylie/composer-drupal-optimizations",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zaporylie/composer-drupal-optimizations.git",
+                    "reference": "fb231d92adc862a2c9276bccbc90f684816dc75d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/zaporylie/composer-drupal-optimizations/zipball/fb231d92adc862a2c9276bccbc90f684816dc75d",
+                    "reference": "fb231d92adc862a2c9276bccbc90f684816dc75d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.1"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.6",
+                    "phpunit/phpunit": "^6"
+                },
+                "time": "2019-10-02T17:01:11+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "zaporylie\\ComposerDrupalOptimizations\\Plugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "zaporylie\\ComposerDrupalOptimizations\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Jakub Piasecki",
+                        "email": "jakub@piaseccy.pl"
+                    }
+                ],
+                "description": "Composer plugin to improve composer performance for Drupal projects"
+            }
+        ]
+    }
+}

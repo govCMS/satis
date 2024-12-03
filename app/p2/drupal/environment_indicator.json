@@ -1,0 +1,58 @@
+{
+    "packages": {
+        "drupal/environment_indicator": [
+            {
+                "name": "drupal/environment_indicator",
+                "version": "3.5.0",
+                "version_normalized": "3.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/environment_indicator.git",
+                    "reference": "8.x-3.5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://ftp.drupal.org/files/projects/environment_indicator-8.x-3.5.zip",
+                    "reference": "8.x-3.5",
+                    "shasum": "637ceea8bc1dc690f12cdcc5d1285986b6037c92"
+                },
+                "require": {
+                    "drupal/core": "*"
+                },
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-3.x": "3.x-dev"
+                    },
+                    "drupal": {
+                        "version": "8.x-3.5",
+                        "datestamp": "1553405885",
+                        "security-coverage": {
+                            "status": "covered",
+                            "message": "Covered by Drupal's security advisory policy"
+                        }
+                    }
+                },
+                "notification-url": "https://packages.drupal.org/8/downloads",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "e0ipso",
+                        "homepage": "https://www.drupal.org/user/550110"
+                    },
+                    {
+                        "name": "mrfelton",
+                        "homepage": "https://www.drupal.org/user/305669"
+                    }
+                ],
+                "description": "Adds a color indicator for the different environments.",
+                "homepage": "https://www.drupal.org/project/environment_indicator",
+                "support": {
+                    "source": "https://git.drupalcode.org/project/environment_indicator"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "packages": {
+        "symfony/serializer": [
+            {
+                "name": "symfony/serializer",
+                "version": "v3.4.35",
+                "version_normalized": "3.4.35.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/serializer.git",
+                    "reference": "9d14f7ff2c585a8a9f6f980253066285ddc2f675"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/serializer/zipball/9d14f7ff2c585a8a9f6f980253066285ddc2f675",
+                    "reference": "9d14f7ff2c585a8a9f6f980253066285ddc2f675",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8",
+                    "symfony/polyfill-ctype": "~1.8"
+                },
+                "conflict": {
+                    "phpdocumentor/type-resolver": "<0.2.1",
+                    "symfony/dependency-injection": "<3.2",
+                    "symfony/property-access": ">=3.0,<3.0.4|>=2.8,<2.8.4",
+                    "symfony/property-info": "<3.1",
+                    "symfony/yaml": "<3.4"
+                },
+                "require-dev": {
+                    "doctrine/annotations": "~1.0",
+                    "doctrine/cache": "~1.0",
+                    "phpdocumentor/reflection-docblock": "^3.0|^4.0",
+                    "symfony/cache": "~3.1|~4.0",
+                    "symfony/config": "~2.8|~3.0|~4.0",
+                    "symfony/dependency-injection": "~3.2|~4.0",
+                    "symfony/http-foundation": "~2.8|~3.0|~4.0",
+                    "symfony/property-access": "~2.8|~3.0|~4.0",
+                    "symfony/property-info": "^3.4.13|~4.0",
+                    "symfony/yaml": "~3.4|~4.0"
+                },
+                "suggest": {
+                    "doctrine/annotations": "For using the annotation mapping. You will also need doctrine/cache.",
+                    "doctrine/cache": "For using the default cached annotation reader and metadata cache.",
+                    "psr/cache-implementation": "For using the metadata cache.",
+                    "symfony/config": "For using the XML mapping loader.",
+                    "symfony/http-foundation": "For using a MIME type guesser within the DataUriNormalizer.",
+                    "symfony/property-access": "For using the ObjectNormalizer.",
+                    "symfony/property-info": "To deserialize relations.",
+                    "symfony/yaml": "For using the default YAML mapping loader."
+                },
+                "time": "2019-11-12T17:51:12+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Serializer\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Serializer Component",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/serializer",
+                "version": "v3.4.40",
+                "version_normalized": "3.4.40.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/serializer.git",
+                    "reference": "2e1bdec403d8e7a350884cbbe4807ab7c2a843d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/serializer/zipball/2e1bdec403d8e7a350884cbbe4807ab7c2a843d4",
+                    "reference": "2e1bdec403d8e7a350884cbbe4807ab7c2a843d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8",
+                    "symfony/polyfill-ctype": "~1.8"
+                },
+                "conflict": {
+                    "phpdocumentor/type-resolver": "<0.2.1",
+                    "symfony/dependency-injection": "<3.2",
+                    "symfony/property-access": ">=3.0,<3.0.4|>=2.8,<2.8.4",
+                    "symfony/property-info": "<3.1",
+                    "symfony/yaml": "<3.4"
+                },
+                "require-dev": {
+                    "doctrine/annotations": "~1.0",
+                    "doctrine/cache": "~1.0",
+                    "phpdocumentor/reflection-docblock": "^3.0|^4.0",
+                    "symfony/cache": "~3.1|~4.0",
+                    "symfony/config": "~2.8|~3.0|~4.0",
+                    "symfony/dependency-injection": "~3.2|~4.0",
+                    "symfony/http-foundation": "~2.8|~3.0|~4.0",
+                    "symfony/property-access": "~2.8|~3.0|~4.0",
+                    "symfony/property-info": "^3.4.13|~4.0",
+                    "symfony/yaml": "~3.4|~4.0"
+                },
+                "suggest": {
+                    "doctrine/annotations": "For using the annotation mapping. You will also need doctrine/cache.",
+                    "doctrine/cache": "For using the default cached annotation reader and metadata cache.",
+                    "psr/cache-implementation": "For using the metadata cache.",
+                    "symfony/config": "For using the XML mapping loader.",
+                    "symfony/http-foundation": "For using a MIME type guesser within the DataUriNormalizer.",
+                    "symfony/property-access": "For using the ObjectNormalizer.",
+                    "symfony/property-info": "To deserialize relations.",
+                    "symfony/yaml": "For using the default YAML mapping loader."
+                },
+                "time": "2020-04-12T14:33:46+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Serializer\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Serializer Component",
+                "homepage": "https://symfony.com"
+            }
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "dflydev/placeholder-resolver": [
+            {
+                "name": "dflydev/placeholder-resolver",
+                "version": "v1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dflydev/dflydev-placeholder-resolver.git",
+                    "reference": "c498d0cae91b1bb36cc7d60906dab8e62bb7c356"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/dflydev/dflydev-placeholder-resolver/zipball/c498d0cae91b1bb36cc7d60906dab8e62bb7c356",
+                    "reference": "c498d0cae91b1bb36cc7d60906dab8e62bb7c356",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "time": "2012-10-28T21:08:28+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Dflydev\\PlaceholderResolver": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dragonfly Development Inc.",
+                        "email": "info@dflydev.com",
+                        "homepage": "http://dflydev.com"
+                    },
+                    {
+                        "name": "Beau Simensen",
+                        "email": "beau@dflydev.com",
+                        "homepage": "http://beausimensen.com"
+                    }
+                ],
+                "description": "Given a data source representing key => value pairs, resolve placeholders like ${foo.bar} to the value associated with the 'foo.bar' key in the data source.",
+                "homepage": "https://github.com/dflydev/dflydev-placeholder-resolver",
+                "keywords": [
+                    "placeholder",
+                    "resolver"
+                ]
+            }
+        ]
+    }
+}

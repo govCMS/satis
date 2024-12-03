@@ -1,0 +1,114 @@
+{
+    "packages": {
+        "sebastian/recursion-context": [
+            {
+                "name": "sebastian/recursion-context",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/recursion-context.git",
+                    "reference": "5b0cd723502bac3b006cbf3dbf7a1e3fcefe4fa8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/5b0cd723502bac3b006cbf3dbf7a1e3fcefe4fa8",
+                    "reference": "5b0cd723502bac3b006cbf3dbf7a1e3fcefe4fa8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^6.0"
+                },
+                "time": "2017-03-03T06:23:57+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    },
+                    {
+                        "name": "Adam Harvey",
+                        "email": "aharvey@php.net"
+                    }
+                ],
+                "description": "Provides functionality to recursively process PHP variables",
+                "homepage": "http://www.github.com/sebastianbergmann/recursion-context"
+            },
+            {
+                "name": "sebastian/recursion-context",
+                "version": "4.0.0",
+                "version_normalized": "4.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/recursion-context.git",
+                    "reference": "cdd86616411fc3062368b720b0425de10bd3d579"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/cdd86616411fc3062368b720b0425de10bd3d579",
+                    "reference": "cdd86616411fc3062368b720b0425de10bd3d579",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0"
+                },
+                "time": "2020-02-07T06:18:20+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    },
+                    {
+                        "name": "Jeff Welch",
+                        "email": "whatthejeff@gmail.com"
+                    },
+                    {
+                        "name": "Adam Harvey",
+                        "email": "aharvey@php.net"
+                    }
+                ],
+                "description": "Provides functionality to recursively process PHP variables",
+                "homepage": "http://www.github.com/sebastianbergmann/recursion-context"
+            }
+        ]
+    }
+}

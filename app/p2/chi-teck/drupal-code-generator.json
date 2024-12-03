@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "chi-teck/drupal-code-generator": [
+            {
+                "name": "chi-teck/drupal-code-generator",
+                "version": "1.32.0",
+                "version_normalized": "1.32.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Chi-teck/drupal-code-generator.git",
+                    "reference": "0e045f7a7e747af3d8f603156bf4d73be5768246"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/0e045f7a7e747af3d8f603156bf4d73be5768246",
+                    "reference": "0e045f7a7e747af3d8f603156bf4d73be5768246",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=5.5.9",
+                    "symfony/console": "^3.4 || ^4.0",
+                    "symfony/filesystem": "^2.7 || ^3.4 || ^4.0",
+                    "twig/twig": "^1.41 || ^2.12"
+                },
+                "time": "2020-04-16T06:45:06+00:00",
+                "bin": [
+                    "bin/dcg"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "src/bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "DrupalCodeGenerator\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Drupal code generator"
+            }
+        ]
+    }
+}

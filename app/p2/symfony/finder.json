@@ -1,0 +1,156 @@
+{
+    "packages": {
+        "symfony/finder": [
+            {
+                "name": "symfony/finder",
+                "version": "v3.4.40",
+                "version_normalized": "3.4.40.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/finder.git",
+                    "reference": "5ec813ccafa8164ef21757e8c725d3a57da59200"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/finder/zipball/5ec813ccafa8164ef21757e8c725d3a57da59200",
+                    "reference": "5ec813ccafa8164ef21757e8c725d3a57da59200",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8"
+                },
+                "time": "2020-02-14T07:34:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Finder\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Finder Component",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/finder",
+                "version": "v4.4.8",
+                "version_normalized": "4.4.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/finder.git",
+                    "reference": "5729f943f9854c5781984ed4907bbb817735776b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/finder/zipball/5729f943f9854c5781984ed4907bbb817735776b",
+                    "reference": "5729f943f9854c5781984ed4907bbb817735776b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.1.3"
+                },
+                "time": "2020-03-27T16:54:36+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Finder\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Finder Component",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/finder",
+                "version": "v5.0.8",
+                "version_normalized": "5.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/finder.git",
+                    "reference": "600a52c29afc0d1caa74acbec8d3095ca7e9910d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/symfony/finder/zipball/600a52c29afc0d1caa74acbec8d3095ca7e9910d",
+                    "reference": "600a52c29afc0d1caa74acbec8d3095ca7e9910d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.2.5"
+                },
+                "time": "2020-03-27T16:56:45+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Finder\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Finder Component",
+                "homepage": "https://symfony.com"
+            }
+        ]
+    }
+}

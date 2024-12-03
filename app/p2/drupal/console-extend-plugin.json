@@ -1,0 +1,49 @@
+{
+    "packages": {
+        "drupal/console-extend-plugin": [
+            {
+                "name": "drupal/console-extend-plugin",
+                "version": "0.9.3",
+                "version_normalized": "0.9.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hechoendrupal/drupal-console-extend-plugin.git",
+                    "reference": "ad8e52df34b2e78bdacfffecc9fe8edf41843342"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/hechoendrupal/drupal-console-extend-plugin/zipball/ad8e52df34b2e78bdacfffecc9fe8edf41843342",
+                    "reference": "ad8e52df34b2e78bdacfffecc9fe8edf41843342",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0",
+                    "composer/installers": "^1.2",
+                    "symfony/finder": "~2.7|~3.0",
+                    "symfony/yaml": "~2.7|~3.0"
+                },
+                "time": "2019-11-07T20:15:27+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Drupal\\Console\\Composer\\Plugin\\Extender"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Drupal\\Console\\Composer\\Plugin\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Jesus Manuel Olivas",
+                        "email": "jesus.olivas@gmail.com"
+                    }
+                ],
+                "description": "Drupal Console Extend Plugin"
+            }
+        ]
+    }
+}

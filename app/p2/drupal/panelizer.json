@@ -1,0 +1,85 @@
+{
+    "packages": {
+        "drupal/panelizer": [
+            {
+                "name": "drupal/panelizer",
+                "version": "4.1.0",
+                "version_normalized": "4.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/panelizer.git",
+                    "reference": "8.x-4.1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://ftp.drupal.org/files/projects/panelizer-8.x-4.1.zip",
+                    "reference": "8.x-4.1",
+                    "shasum": "056f236f171305c32d5cfecbfb77a5c7398749d8"
+                },
+                "require": {
+                    "drupal/core": "*",
+                    "drupal/ctools": ">=3.0.0-beta1",
+                    "drupal/ctools_block": "*",
+                    "drupal/panels": ">=4.0.0-alpha1",
+                    "drupal/panels_ipe": ">=4.0.0-alpha1"
+                },
+                "type": "drupal-module",
+                "extra": {
+                    "drupal": {
+                        "version": "8.x-4.1",
+                        "datestamp": "1578071889",
+                        "security-coverage": {
+                            "status": "covered",
+                            "message": "Covered by Drupal's security advisory policy"
+                        }
+                    }
+                },
+                "notification-url": "https://packages.drupal.org/8/downloads",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Damien McKenna",
+                        "homepage": "https://www.drupal.org/u/damienmckenna"
+                    },
+                    {
+                        "name": "Kris Vanderwater",
+                        "homepage": "https://www.drupal.org/u/eclipsegc"
+                    },
+                    {
+                        "name": "David Snopek",
+                        "homepage": "https://www.drupal.org/u/dsnopek"
+                    },
+                    {
+                        "name": "Jakob Perry",
+                        "homepage": "https://www.drupal.org/u/japerry"
+                    },
+                    {
+                        "name": "Earl Miles",
+                        "homepage": "https://www.drupal.org/u/merlinofchaos"
+                    },
+                    {
+                        "name": "See other contributors",
+                        "homepage": "https://www.drupal.org/node/1072922/committers"
+                    },
+                    {
+                        "name": "phenaproxima",
+                        "homepage": "https://www.drupal.org/user/205645"
+                    },
+                    {
+                        "name": "tim.plunkett",
+                        "homepage": "https://www.drupal.org/user/241634"
+                    }
+                ],
+                "description": "Allow any entity view mode to be rendered using a Panels display.",
+                "homepage": "https://www.drupal.org/project/panelizer",
+                "support": {
+                    "source": "http://git.drupal.org/project/panelizer.git",
+                    "issues": "https://www.drupal.org/project/issues/panelizer",
+                    "irc": "irc://irc.freenode.org/drupal-scotch"
+                }
+            }
+        ]
+    }
+}

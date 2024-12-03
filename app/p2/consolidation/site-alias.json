@@ -1,0 +1,79 @@
+{
+    "packages": {
+        "consolidation/site-alias": [
+            {
+                "name": "consolidation/site-alias",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/consolidation/site-alias.git",
+                    "reference": "8cfd3b6ab6d541086fc970bf850864293b284e6f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/consolidation/site-alias/zipball/8cfd3b6ab6d541086fc970bf850864293b284e6f",
+                    "reference": "8cfd3b6ab6d541086fc970bf850864293b284e6f",
+                    "shasum": ""
+                },
+                "require": {
+                    "consolidation/config": "^1.2.1",
+                    "php": ">=5.5.0"
+                },
+                "require-dev": {
+                    "consolidation/robo": "^1.2.3",
+                    "g1a/composer-test-scenarios": "^3",
+                    "knplabs/github-api": "^2.7",
+                    "php-coveralls/php-coveralls": "^1",
+                    "php-http/guzzle6-adapter": "^1.1",
+                    "phpunit/phpunit": "^6",
+                    "squizlabs/php_codesniffer": "^2.8",
+                    "symfony/console": "^2.8|^3|^4",
+                    "symfony/yaml": "~2.3|^3"
+                },
+                "time": "2019-03-12T17:31:48+00:00",
+                "type": "library",
+                "extra": {
+                    "scenarios": {
+                        "phpunit5": {
+                            "require-dev": {
+                                "phpunit/phpunit": "^5.7.27"
+                            },
+                            "remove": [
+                                "php-coveralls/php-coveralls"
+                            ],
+                            "config": {
+                                "platform": {
+                                    "php": "5.6.33"
+                                }
+                            }
+                        }
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Consolidation\\SiteAlias\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Moshe Weitzman",
+                        "email": "weitzman@tejasa.com"
+                    },
+                    {
+                        "name": "Greg Anderson",
+                        "email": "greg.1.anderson@greenknowe.org"
+                    }
+                ],
+                "description": "Manage alias records for local and remote sites."
+            }
+        ]
+    }
+}
